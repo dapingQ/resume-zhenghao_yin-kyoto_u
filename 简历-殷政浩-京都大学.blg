@@ -1,0 +1,9 @@
+[0] Config.pm:304> INFO - This is Biber 2.12
+[1] Config.pm:307> INFO - Logfile is 'ç®å-æ®·æ¿æµ©-äº¬é½å¤§å­¦.blg'
+[51] biber-MSWIN32:315> INFO - === 
+[103] Biber.pm:371> INFO - Reading 'ç®å-æ®·æ¿æµ©-äº¬é½å¤§å­¦.bcf'
+[261] Biber.pm:889> INFO - Found 0 citekeys in bib section 0
+[271] Utils.pm:193> WARN - The file 'ç®å-æ®·æ¿æµ©-äº¬é½å¤§å­¦.bcf' does not contain any citations!
+[284] bbl.pm:636> INFO - Writing 'ç®å-æ®·æ¿æµ©-äº¬é½å¤§å­¦.bbl' with encoding 'UTF-8'
+[284] bbl.pm:739> INFO - Output to ç®å-æ®·æ¿æµ©-äº¬é½å¤§å­¦.bbl
+[292] Biber.pm:110> INFO - WARNINGS: 1
