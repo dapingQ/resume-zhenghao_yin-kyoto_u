@@ -39,7 +39,7 @@
 
 
 % Change the page layout if you need to
-\geometry{left=1cm,right=9cm,marginparwidth=6.8cm,marginparsep=1.2cm,top=1cm,bottom=1cm}
+\geometry{left=2cm,right=10cm,marginparwidth=6.8cm,marginparsep=1.2cm,top=1cm,bottom=1cm}
 
 % Change the font if you want to.
 
@@ -78,110 +78,114 @@
 % Cropped to square from https://en.wikipedia.org/wiki/Marissa_Mayer#/media/File:Marissa_Mayer_May_2014_(cropped).jpg, CC-BY 2.0
 % \photo{2.5cm}{square}
 \personalinfo{%
-	% Not all of these are required!
-	% You can add your own with \printinfo{symbol}{detail}
-	\mailaddress{\href{mailto:yin.zhenghao@st.kyoto-u.ac.jp}{yin.zhenghao@st.kyoto-u.ac.jp}}
-	\phone{(81)080-2383-7348}
-	\newline
-	\email{A1-211,Kyoto University Katsura, Nishikyo-ku, Kyoto, 615-8510}
-	%   \location{Kyoto, JP}
-	\newline
-	\homepage{\href{https://fibomat.github.io/blog}{https://fibomat.github.io/blog}}
-	%   \twitter{@marissamayer}
-	%   \linkedin{linkedin.com/in/marissamayer}
-	\github{\href{https://github.com/fibomat}{fibomat}} % I'm just making this up though.
-	%   \orcid{orcid.org/0000-0000-0000-0000} % Obviously making this up too. If you want to use this field (and also other academicons symbols), add "academicons" option to \documentclass{altacv}
+% Not all of these are required!
+% You can add your own with \printinfo{symbol}{detail}
+\mailaddress{\href{mailto:yin.zhenghao@st.kyoto-u.ac.jp}{yin.zhenghao@st.kyoto-u.ac.jp}}
+\phone{(86) 187 6155 2792}
+\newline
+\email{A1-211,Kyoto University Katsura, Nishikyo-ku, Kyoto, 615-8510}
+%   \location{Kyoto, JP}
+\newline
+\homepage{\href{https://fibomat.github.io/blog}{https://fibomat.github.io/blog}}
+%   \twitter{@marissamayer}
+%   \linkedin{linkedin.com/in/marissamayer}
+\github{\href{https://github.com/fibomat}{fibomat}} % I'm just making this up though.
+%   \orcid{orcid.org/0000-0000-0000-0000} % Obviously making this up too. If you want to use this field (and also other academicons symbols), add "academicons" option to \documentclass{altacv}
 }
-	
-	%% Make the header extend all the way to the right, if you want.
-	\begin{fullwidth}
-		\makecvheader
-	\end{fullwidth}
-	
-	%% Depending on your tastes, you may want to make fonts of itemize environments slightly smaller
-	\AtBeginEnvironment{itemize}{\small}
-	
-	%% Provide the file name containing the sidebar contents as an optional parameter to \cvsection.
-	%% You can always just use \marginpar{...} if you do
-	%% not need to align the top of the contents to any
-	%% \cvsection title in the "main" bar.
-	\cvsection[page1sidebar_zh]{研究方向}
-	
-	\cvevent{集成光量子信息处理}{导师~竹内繁树 教授}{2017年 十月 -- 至今}{日本~京都大学}
-	在与九州大学横山研究室的合作下，基于氮化硅以及非晶硅的材料平台，我们致力于实现片上高强度宽频带的纠缠光子源。
-	\begin{itemize}
-		\item 增强型槽形波导的设计与优化
-		\item 实现了具有高品质因子的光微环谐振器
-		\item 在非线性光学过程中引入电光聚合物
-		\item 从化合物沉积到图案形成、刻蚀，对微纳加工有较为全面的了解 
-	\end{itemize}
-	\divider
-	
-	\cvevent{量子光学和量子信息}{导师~马小松教授}{2015年 九月 -- 2017年 六月}\newline{中国~南京大学}
-	在进入课题组之初，以量子密钥分发和贝尔态产生为研究课题，随后转移到光量子器件的集成化与平台搭建。
-	\begin{itemize}
-		\item 绝缘体上硅以及绝缘体上氮化硅的微纳加工以及工艺优化
-		\item 集成光子学测试平台的实现以及自动化
-	\end{itemize}
-	\divider
-	
-	% \cvevent{Electrorheological Fluids}{with Prof. Yonghua Pan and Prof. Huibin Gao}{Nov. 2014 - Oct 2015}{}
-	% As a part of undergraduate training program, we evaluated several kinds of EF, and simulated the interaction with electromagnetic fields. Eventually, we succeeded to demonstrate a practical device. \divider
-	
-	\cvsection{学术交流}
-	
-	\cvevent{第17届全国量子光学会议}{}
-	{2016年八月}{中国~兰州}
-	\cvevent{第2届凝聚态物理大会}{}
-	{2015年七月}{中国~南京}
-	\cvevent{第12届全国高等学校物理演示教学研讨会}{}
-	{2015年十月}{中国~苏州}
-	\cvevent{2014年浙江大学物理拔尖学生夏令营}{}
-	{2014年七月}{中国~杭州}
-	
-	
-	% \cvsection{A Day of My Life}
-	
-	% % Adapted from @Jake's answer from http://tex.stackexchange.com/a/82729/226
-	% % \wheelchart{outer radius}{inner radius}{
-	% % comma-separated list of value/text width/color/detail}
-	% % Some ad-hoc tweaking to adjust the labels so that they don't overlap
-	% \wheelchart{1.5cm}{0.5cm}{%
-	%   10/10em/accent!30/Sleeping \& dreaming about work,
-	%   25/9em/accent!60/Public resolving issues with Yahoo!\ investors,
-	%   5/13em/accent!10/\footnotesize\\[1ex]New York \& San Francisco Ballet Jawbone board member,
-	%   20/15em/accent!40/Spending time with family,
-	%   5/8em/accent!20/\footnotesize Business development for Yahoo!\ after the Verizon acquisition,
-	%   30/9em/accent/Showing Yahoo!\ employees that their work has meaning,
-	%   5/8em/accent!20/Baking cupcakes
-	% }
-	
-	
-	\clearpage
-	
-	
-	% \cvsection[page2sidebar]{Publications}
-	
-	
-	% \cvsection[page2sidebar]{Publications}
-	
-	% \nocite{*}
-	
-	% \printbibliography[heading=pubtype,title={\printinfo{\faBook}{Books}},type=book]
-	
-	% \divider
-	
-	% \printbibliography[heading=pubtype,title={\printinfo{\faFileTextO}{Journal Articles}}, type=article]
-	
-	% \divider
-	
-	% \printbibliography[heading=pubtype,title={\printinfo{\faGroup}{Conference Proceedings}},type=inproceedings]
-	
-	% % If the NEXT page doesn't start with a \cvsection but you'd
-	% % still like to add a sidebar, then use this command on THIS
-	% % page to add it. The optional argument lets you pull up the
-	% % sidebar a bit so that it looks aligned with the top of the
-	% % main column.
-	% \addnextpagesidebar[-1ex]{page3sidebar}
-	
+
+%% Make the header extend all the way to the right, if you want.
+\begin{fullwidth}
+	\makecvheader
+\end{fullwidth}
+
+%% Depending on your tastes, you may want to make fonts of itemize environments slightly smaller
+\AtBeginEnvironment{itemize}{\small}
+
+%% Provide the file name containing the sidebar contents as an optional parameter to \cvsection.
+%% You can always just use \marginpar{...} if you do
+%% not need to align the top of the contents to any
+%% \cvsection title in the "main" bar.
+\cvsection[page1sidebar_zh]{研究方向}
+
+\cvevent{集成光量子信息技术}{导师~竹内繁树 教授}{2017/10 -- 2020/03}{日本~京都大学}
+
+在与九州大学横山研究室的合作下，基于氮化硅以及非晶硅的材料，致力于实现片上高强度宽带的纠缠光子源。
+
+\begin{itemize}
+	\item 增强型槽形波导的设计与优化
+	\item  通过调制高阶光波导色散，在较宽的频谱上实现四波混频相位匹配
+	\item 实现了具有高品质因子($ 10^5 $)的光微环谐振器
+	\item CMOS 兼容的微加工工艺，涵盖薄膜沉积，图案形成，选择性刻蚀
+	\item 光芯片非线性光学测试与量子纠缠光子对的产生
+	\item 频率纠缠光子对的理论分析
+\end{itemize}
+
+\divider
+
+\cvevent{量子光学和量子信息}{导师~马小松教授}{2015/09 -- 2017/06}{中国~南京大学}
+
+在进入课题组之初，以量子密钥分发和贝尔态产生为研究课题，毕业课题是光量子器件的集成化与平台搭建。
+
+\begin{itemize}
+	\item 绝缘体上硅(silicon on insulator)以及绝缘体上氮化硅(SiN on insulator)的微纳加工以及工艺优化
+	\item 搭建集成光子学表征平台以及自动化测试
+\end{itemize}
+\divider
+
+% \cvevent{Electrorheological Fluids}{with Prof. Yonghua Pan and Prof. Huibin Gao}{Nov. 2014 - Oct 2015}{}
+% As a part of undergraduate training program, we evaluated several kinds of EF, and simulated the interaction with electromagnetic fields. Eventually, we succeeded to demonstrate a practical device. \divider
+
+\cvsection{学术发表}
+
+\cvevent{Design and fabrication of a silicon nitride ring resonator for on-chip broadband entangled photon sources  (oral)}{The 80th JSAP Autumn Meeting 2019, JSAP-OSA Joint Symposia}{2019/09}{Sapporo, Japan}
+\cvevent{Research of CVD methods for impacts on dispersion in a SiNx ring resonator (oral \& poster)}{The 38th Electronic Materials Symposium}
+{2019/10}{Nara, Japan}
+\cvevent{On-chip broadband entangled photon sources using HICDG and SiN waveguide devices (poster)}{EU-USA-Japan International Symposium on Quantum Technology}
+{2019/12}{Kyoto, Japan}
+
+
+% \cvsection{A Day of My Life}
+
+% % Adapted from @Jake's answer from http://tex.stackexchange.com/a/82729/226
+% % \wheelchart{outer radius}{inner radius}{
+% % comma-separated list of value/text width/color/detail}
+% % Some ad-hoc tweaking to adjust the labels so that they don't overlap
+% \wheelchart{1.5cm}{0.5cm}{%
+%   10/10em/accent!30/Sleeping \& dreaming about work,
+%   25/9em/accent!60/Public resolving issues with Yahoo!\ investors,
+%   5/13em/accent!10/\footnotesize\\[1ex]New York \& San Francisco Ballet Jawbone board member,
+%   20/15em/accent!40/Spending time with family,
+%   5/8em/accent!20/\footnotesize Business development for Yahoo!\ after the Verizon acquisition,
+%   30/9em/accent/Showing Yahoo!\ employees that their work has meaning,
+%   5/8em/accent!20/Baking cupcakes
+% }
+
+
+\clearpage
+
+
+% \cvsection[page2sidebar]{Publications}
+
+
+% \cvsection[page2sidebar]{Publications}
+
+% \nocite{*}
+
+% \printbibliography[heading=pubtype,title={\printinfo{\faBook}{Books}},type=book]
+
+% \divider
+
+% \printbibliography[heading=pubtype,title={\printinfo{\faFileTextO}{Journal Articles}}, type=article]
+
+% \divider
+
+% \printbibliography[heading=pubtype,title={\printinfo{\faGroup}{Conference Proceedings}},type=inproceedings]
+
+% % If the NEXT page doesn't start with a \cvsection but you'd
+% % still like to add a sidebar, then use this command on THIS
+% % page to add it. The optional argument lets you pull up the
+% % sidebar a bit so that it looks aligned with the top of the
+% % main column.
+% \addnextpagesidebar[-1ex]{page3sidebar}
+
 \end{document}

@@ -1,0 +1,14 @@
+*.log
+*.aux
+*.dvi
+*.bbl
+*.toc
+*.out
+*.blg
+*.synctex.gz
+.vscode/
+./imgs/svg-tex*
+*.fff
+*.ttt
+*.xml
+./imgs/svg-inkscape/*

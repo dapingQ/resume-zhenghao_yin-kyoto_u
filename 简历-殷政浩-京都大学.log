@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/W32TeX) (preloaded format=xelatex 2020.3.9)  18 MAR 2020 12:01
+This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/W32TeX) (preloaded format=xelatex 2020.3.9)  18 MAR 2020 16:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2128,14 +2128,14 @@ LaTeX Font Info:    ... okay on input line 75.
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
-* h-part:(L,W,R)=(28.45274pt, 312.98033pt, 256.0748pt)
+* h-part:(L,W,R)=(56.9055pt, 256.07481pt, 284.52756pt)
 * v-part:(T,H,B)=(28.45274pt, 788.14136pt, 28.45274pt)
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
-* \textwidth=312.98033pt
+* \textwidth=256.07481pt
 * \textheight=788.14136pt
-* \oddsidemargin=-43.81725pt
-* \evensidemargin=-43.81725pt
+* \oddsidemargin=-15.36449pt
+* \evensidemargin=-15.36449pt
 * \topmargin=-80.81725pt
 * \headheight=12.0pt
 * \headsep=25.0pt
@@ -2313,6 +2313,27 @@ esome.otf
 Requested font "Source Han Sans SC/OT:script=hani;language=DFLT;" at 10.0pt
  -> C:/WINDOWS/fonts/SourceHanSansSC-Regular.otf
 )
+Requested font "Lato/OT:script=latn;language=DFLT;mapping=tex-text;" at 6.0pt
+ -> D:/Program/texlive/2019/texmf-dist/fonts/truetype/typoland/lato/Lato-Regula
+r.ttf
+Requested font "cmmi9" at 9.0pt
+ -> d:/Program/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmmi9.tfm
+Requested font "cmmi6" at 6.0pt
+ -> d:/Program/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmmi6.tfm
+Requested font "cmsy9" at 9.0pt
+ -> d:/Program/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmsy9.tfm
+Requested font "cmsy6" at 6.0pt
+ -> d:/Program/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmsy6.tfm
+Requested font "cmex9" at 9.0pt
+ -> d:/Program/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex9.
+tfm
+LaTeX Font Info:    External font `cmex7' loaded for size
+(Font)              <6> on input line 117.
+Requested font "cmr9" at 9.0pt
+ -> d:/Program/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmr9.tfm
+Requested font "cmr6" at 6.0pt
+ -> d:/Program/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmr6.tfm
+
 (d:/Program/texlive/2019/texmf-dist/tex/generic/oberdiek/se-ascii-print.def
 File: se-ascii-print.def 2016/05/16 v1.11 stringenc: Printable ASCII characters
 
@@ -2320,11 +2341,11 @@ File: se-ascii-print.def 2016/05/16 v1.11 stringenc: Printable ASCII characters
 [1
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 187.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 187.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 191.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 191.
  (./简历-殷政浩-京都大学.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 187.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 187.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 191.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 191.
 Package rerunfilecheck Info: File `简历-殷政浩-京都大学.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E.
 Package logreq Info: Writing requests to '简历-殷政浩-京都大学.run.xml'.
@@ -2332,11 +2353,11 @@ Package logreq Info: Writing requests to '简历-殷政浩-京都大学.run.xml'
 
  ) 
 Here is how much of TeX's memory you used:
- 43971 strings out of 492922
- 908175 string characters out of 6133408
- 1392695 words of memory out of 5000000
- 47463 multiletter control sequences out of 15000+600000
- 536379 words of font info for 85 fonts, out of 8000000 for 9000
+ 43958 strings out of 492922
+ 906318 string characters out of 6133408
+ 1394695 words of memory out of 5000000
+ 47442 multiletter control sequences out of 15000+600000
+ 538435 words of font info for 93 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  62i,16n,99p,1156b,921s stack positions out of 5000i,500n,10000p,200000b,80000s
 
